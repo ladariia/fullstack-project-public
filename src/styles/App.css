@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter/Inter-VariableFont_slnt\,wght.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'Play';
+  src: url('./fonts/Play/Play-Regular.ttf')  format('truetype')
+}
+
+@font-face {
+  font-family: 'Bowler';
+  src: url('./fonts/Bowler.ttf')  format('truetype')
+}
+
+*{
+    margin: 0;
+    font-family:'Inter';
+}
+
+header, .servicesPage, .servicePage, .coursesPage, .coursePage, .mainPage{
+    -ms-user-select: none; 
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    user-select: none;
+}
+
+::selection {
+  background: #E5E4E2;
+}
+
+.spinner-border {
+  animation-duration: 1.4s;
+}
+
+p{
+  font-size: 16px;
+}
+
+a:hover{
+  color: #000 !important;
+}
+
+footer a:hover{
+  color: #fff !important;
+}
+
+main{
+  min-height: 40vh;
+}
+
+.MuiBreadcrumbs-li, .MuiBreadcrumbs-li p{
+  font-family: 'Inter' !important;
+  font-size: 14px;
+  margin: 0 !important;
+}
+
+.breadcrumb{
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 12px;
+  margin-bottom: 60px !important;
+}
+
+.breadcrumb a{
+  text-decoration: none !important;
+  color:#949494;
+}
+
+.breadcrumb svg{
+  width: 0.7em;
+}
+
+.typography{
+  width: 35vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 880px){
+  main{
+    min-height: 80vh;
+  }
+  h1{
+    font-size: 32px;
+  }
+  h2{
+    font-size: 24px;
+  }
+  p{
+    font-size: 14px;
+  }
+  .MuiBreadcrumbs-li, .MuiBreadcrumbs-li p{
+    font-size: 12px;
+  }
+  .breadcrumb{
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 40px !important;
+  }
+  .breadcrumb svg{
+    width: 0.5em;
+  }
+
+  .typography{
+    width: 25vw;
+  }
+}

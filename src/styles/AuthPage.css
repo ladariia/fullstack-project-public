@@ -1,0 +1,50 @@
+.adminOneRequest p{
+    color: #000;
+}
+
+.adminOneRequest .label{
+    color: #928d8a !important;
+}
+
+.adminRequest, .adminPage, .adminLicensePage, .adminLkPage{
+    min-height: 80vh;
+}
+
+.adminOneRequest h1, .adminRequest h1, .adminPage h1, .adminLicensePage h1, .adminLkPage h1{
+    font-family: 'Play';
+    font-size: 32px;
+}
+
+
+.adminOneRequest h2, .adminRequest h2, .adminPage h2, .adminLicensePage h2, .adminLkPage h2{
+    font-family: 'Play';
+    font-size: 26px;
+}
+
+.adminOneRequest .label{
+    padding-left: 0 !important;
+}
+
+.auth{
+    height: 80vh;
+}
+.authCard{
+    width: 50%;
+}
+
+.form-control:focus{
+    box-shadow:none !important;
+    border-color: #202031 !important;
+}
+
+@media (max-width: 880px){
+    .authCard{
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px){
+    .authCard{
+        width: 100%;
+    }
+}

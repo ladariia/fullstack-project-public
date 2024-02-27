@@ -1,0 +1,31 @@
+.blueBtn, .borderedBtn{
+    border-radius: 30px;
+    padding: 7px 14px;
+    font-size:calc(12px + 2 * (100vw - 320px) / 1000);
+    font-weight: 500;
+}
+
+.blueBtn{
+    color: #fff;
+    background:#FB652F;
+    border: none;
+}
+
+.borderedBtn{
+    border: 1px solid #141314;
+    background: #fff;
+    color: #000;
+}
+
+.blueBtn:hover,
+.borderedBtn:hover
+{
+    transform: scale(105%);
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.blueBtn:disabled{
+    background-color: grey;
+    transform: scale(100%)
+}

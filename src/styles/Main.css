@@ -1,0 +1,612 @@
+.mainPage h1{
+    font-family: 'Bowler';
+    color: #141314;
+    width: 100%;
+    font-weight: 300 !important;
+}
+
+h2{
+    font-family: 'Play';
+}
+
+.mainPage h2{
+    color: #141314;
+    font-size:calc(18px + 6 * (100vw - 320px) / 1000);
+}
+
+.accreditation .container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mainPage h3{
+    color: #141314;
+    font-size:calc(16px + 8 * (100vw - 320px) / 1000);
+}
+
+.accreditation, .clients, .expertAreaBlock{
+    margin: 0 5.95%;
+}
+
+.intro{
+    background-color: #F8F8FF;
+    margin-bottom: 6%;
+    margin: 0 5.95%;
+    margin-top: 40px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border-radius: 16px;
+}
+
+.intro__row{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lottie{
+    opacity: 0;
+    height: 160px;
+    width: calc(100% - 5.95%);
+    position: fixed;
+    bottom: -20px;
+    transition-timing-function: ease-in;
+    transition: 0.2s;
+}
+
+.lottie_visible{
+    opacity: 100;
+    transition-timing-function: ease-in;
+    transition: 0.1s;
+}
+
+.textBlock{
+    width: 100%;
+}
+
+.textBlock h1{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.textBlock p{
+    width: 40%;
+    text-align: justify;
+    margin: 0 !important;
+}
+
+.mainPage p{
+    margin-top: 4%;
+    color: #928d8a;
+    font-weight: 400;
+}
+
+.p--center{
+    text-align: center;
+    margin-top: 30px;
+    color: #928d8a !important;
+}
+
+.expertAreaBlock{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.expertAreaBlock h3{
+    font-weight: 500;
+    width: 80%;
+    line-height: 35px;
+}
+
+.expertArea{
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.expertAreaItem{
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 16px;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.dark{
+    background-color: #2F2B3C;
+    margin-left: 20px;
+    width: 25%;
+    min-width: 300px;
+}
+
+.dark h3{
+    color: #fff;
+}
+
+.dark a,
+.dark a:hover{
+    color: #fff !important;
+}
+
+.dark svg{
+    fill: #fff;
+}
+
+.light{
+    background-color: #fff;
+    width: 49.35%;
+    min-width: 520px;
+}
+
+.expertAreaItem .bg{
+    width: 50%;
+    height: calc(100% - 40px);
+    background-image: url('../img/mainImg.png');
+    background-size: contain;
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
+
+.expertAreaItem .container{
+    position: relative;
+    margin: 40px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.expertAreaItem button{
+    margin-top: 14.18%;
+    color: #fff;
+    background-color: #FB6F3C;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    padding: 7px 14px;
+}
+
+.expertAreaItem button:hover{
+    cursor: pointer;
+    transform: scale(105%);
+    transition: all .2s ease;
+}
+
+.accreditation{
+    height: 400px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6%;
+    border-radius: 16px;
+}
+
+.title--lg{
+    font-size: calc(24px + 8 * (100vw - 320px) / 1000) !important;
+    display: flex;
+    justify-content: center;
+}
+
+.mainPage .link{
+    margin-top: 4%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainPage .link a{
+    font-size: 16px;
+    color: #141314;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.mainPage .link .arrowMain{
+    margin-left: 4px;
+}
+
+.mainPage .link a:hover{
+    transform: scale(103%);
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+.accreditationItems{
+    margin-top: 2%;
+    display: flex;
+}
+
+.accreditationItem{
+    color: #928d8a;
+    border: 1px solid #928d8a;
+    border-radius: 10px;
+    font-size:calc(12px + 4 * (100vw - 320px) / 1000);
+    display: flex;
+    padding: 1% 2%;
+    width: 26.75%;
+    margin-right: 1.98%;
+}
+
+.accreditationItemImg{
+    max-height: 44px;
+    max-width: 44px;
+    min-width: 32px;
+    min-height: 32px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    filter: grayscale(100%);
+    opacity: 75%;
+    margin-right: 4%;
+}
+
+.mainPage .expertAreaLink{
+    justify-content: start !important;
+}
+
+.accreditationItemImg--fstek{
+    background-image: url('../img/fstecLogo.png');
+}
+
+.accreditationItemImg--rosobr{
+    background-image: url('../img/rosobrLogo.png');
+}
+
+.clientItems{
+    margin-top: 1.98%;
+    margin-bottom: 13.22%;
+}
+
+.clientItem{
+    width: 21vw;
+    height: 12vw;
+    background-size: 100%; 
+    background-color: #D5D4E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientItem svg{
+    width: 44%;
+    fill: #000;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    width: 10px !important;
+    height: 10px !important;
+    padding: 15px;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 25% auto;
+    background-position: center;
+}
+
+.swiper-button-prev{
+    background-image: url('../img/arrow-left.svg');
+    left: 10px !important;
+}
+
+.swiper-button-next{
+    background-image: url('../img/arrow-right.svg');
+    right: 10px !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after
+ {
+    display: none;
+}
+
+@media (max-width: 1375px){
+    .textBlock h1{
+        font-size: 44px;
+    }
+
+    .title--lg{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1210px){
+    .textBlock h1{
+        font-size: 38px;
+    }
+
+    .title--lg{
+        display: flex;
+        justify-content: center;
+    }
+
+    .lottie{
+        height: 180px;
+        bottom: -80px;
+    }
+
+    .textBlock p{
+        width: 60%;
+    }
+}
+
+@media (max-width: 1045px){
+    .textBlock h1{
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    .title--lg{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 960px){
+    .expertArea{
+        width: 100%;
+    }
+
+    .expertAreaItem .container{
+        margin: 30px;
+    }
+
+    .light{
+        width: 60%;
+        min-width: 300px;
+    }
+
+    .dark{
+        width: 40%;
+        min-width: 200px;
+        margin-left: 10px;
+    }
+
+    .accreditation .container{
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 880px){
+
+    .mainPage .link a{
+        font-size: 14px;
+    }
+    .lottie{
+        display: none;
+    }
+    .accreditationItems{
+        margin-top: 4%;
+    }
+
+    .accreditation, .clients, .expertAreaBlock{
+        margin: 0 4%;
+    }
+
+    .expertAreaBlock{
+        margin-top: 60px;
+    }
+
+    .dark{
+        margin: 0 !important;
+    }
+
+    .textBlock p{
+        width: 80%;
+    }
+
+    .intro{
+        padding: 4%;
+        margin: 0 4%;
+        border-radius: 8px;
+    }
+
+    header{
+        height: 4rem;
+    }
+
+    .textBlock{
+        width: 100%;
+        padding-right: 4%;
+    }
+
+    .textBlock h1{
+        line-height: 145%;
+    }
+
+    .textBlock p{
+        text-align: justify;
+    }
+
+    .expertAreaItem .container{
+        padding: 0;
+    }
+
+    .expertAreaBlock h2, .clients h2{
+        font-size: 18px;
+    }
+
+    .expertAreaBlock h3{
+        font-size: 20px;
+    }
+
+    .imgBlock{
+        width: 100%;
+        background-position: center center;
+    }
+
+    .accreditation{
+        height: 41vh;
+        margin: 60px 4%;
+    }
+
+    .title--lg{
+        font-size: 24px;
+    }
+
+    .accreditation .container{
+        width: 70%;
+    }
+
+    .accreditationItem{
+        border-radius: 12px;
+    }
+
+    .expertArea{
+        flex-direction: column;
+    }
+
+    .expertAreaItem{
+        margin-bottom: 4%;
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .accreditation .container{
+        width: 80%;
+    }
+
+    .clientItem{
+        width: 21vw;
+        height: 12vw;
+        background-color: #D5D4E1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        width: 5px !important;
+        height: 5px !important;
+    }
+
+    .swiper-button-prev{
+        left: 5px !important;
+    }
+    
+    .swiper-button-next{
+        right: 5px !important;
+    }
+
+    .clientItem{
+        width: 100%;
+        height: 25vh;
+    }
+}
+
+@media (max-width: 800px){
+    .accreditationItem{
+        border-radius: 10px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px){
+    .textBlock h1{
+        font-size: 26px;
+    }
+
+    .expertAreaBlock h3{
+        line-height: 25px;
+    }
+
+    .textBlock p{
+        width: 100%;
+        text-align: left;
+    }
+
+    .headerNav ul li{
+        margin-right: 0 !important;
+    }
+
+    .accreditation{
+        border-radius: 8px;
+        padding: 0;
+    }
+
+    .accreditationItem{
+        font-size: 12px;
+    }
+
+    .expertAreaItem .bg{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 50px;
+        margin: 0 auto;
+        height: 60%;
+        width: 60%;
+    }
+
+    .accreditation .container{
+        width: 100%;
+        margin: 20px 10px;
+    }
+
+    .intro{
+        margin-bottom: 60px;
+        height: fit-content;
+    }
+
+    .imgBlock{
+        min-height: 350px;
+    }
+
+    .accreditation .container{
+        max-width: 100%;
+    }
+
+    .glow{
+        width: 200px;
+        height: 200px;
+    }
+
+    .expertAreaItem button{
+        font-size: 12px;
+    }
+
+
+    .clientItem{
+        height: 13vh;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display: none !important;
+    }
+
+    .swiper-slide{
+        width: 35% !important;
+    }
+
+    .clients{
+        margin: 0 0 0 5.95% ;
+    }
+
+    .lottie{
+        height: 140px;
+        bottom: -1%;
+    }
+
+}
+
+@media (max-width: 300px){
+    .textBlock h1{
+        font-size: 20px;
+    }
+
+    .mainPage p{
+        font-size: 10px;
+    }
+
+    .accreditationItem {
+        font-size: 8px;
+    }
+}

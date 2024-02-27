@@ -1,0 +1,358 @@
+.requestPage{
+    padding: 40px 5.95% 200px;
+}
+
+.requestPage .switch button, .requestPage .addStudent{
+    color: #000 !important;
+}
+
+.requestPage .spinner{
+    margin-right: 20px;
+}
+
+.requestModal .modal-header{
+    border-bottom: none !important;
+}
+
+.requestModal .modal-content{
+    border: none !important;
+}
+
+.formControl{
+    background-color: #F8F8F9 !important;
+    border: none !important;
+}
+
+.btn-close:focus{
+    box-shadow: none !important;
+}
+
+.requestModalBlock svg{
+    width: 25%;
+}
+
+.requestModalBlock p{
+    font-size:calc(14px + 2 * (100vw - 320px) / 1000);
+    z-index: 1;
+    text-align: center;
+}
+
+.responseTitle{
+    font-family: 'Play';
+    color: #000;
+    font-size:calc(20px + 4 * (100vw - 320px) / 1000) !important;
+}
+
+.requestModalBlock{
+    position: relative;
+}
+
+.requestModal .modal-content{
+    height: 60vh;
+}
+
+.requestModal .modal-dialog.modal-dialog-centered{
+    max-width: 80%;
+}
+
+.requestModal .quad{
+    width: 245px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    fill: #D5D4E1;
+}
+
+.requestModal .Btn_borderedBtn__cpulo{
+    z-index: 1;
+}
+
+.requestModalBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.requestModalBlock .item{
+    z-index: 1;
+}
+
+.form-control{
+    font-size:calc(14px + 2 * (100vw - 320px) / 1000) !important;
+}
+
+.form-control:focus{
+    box-shadow:none !important;
+}
+
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:hover{
+    background-color: #F8F8F9 !important;
+    color: #000 !important;
+}
+
+.requestPage h3{
+    font-size:calc(16px + 6 * (100vw - 320px) / 1000);
+    font-weight: 500;
+    font-family: 'Play';
+    margin-top: 4%;
+}
+
+.requestPage .dropdowns{
+    display: flex;
+}
+
+.dropdown-menu{
+    width: 100%;
+}
+
+.dropdown-item{
+    white-space: pre-wrap !important;
+}
+
+.dropdowns__course{
+    width: 60%;
+}
+
+.dropdowns__shedule{
+    width: 40%;
+    margin-left: 10px;
+}
+
+.dropdown-toggle{
+    width: 100%;
+    text-align: left !important;
+}
+
+.requestPage .switch__block{
+    display: flex;
+    justify-content: center;
+}
+
+.requestPage .switch{
+    width: 30%;
+    height: 35px;
+    background-color: #D5D4E1;
+    border-radius: 30px;
+    margin-top: 6%;
+}
+
+.switch__btn,
+.switch__btn--active{
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    font-size:calc(14px + 2 * (100vw - 320px) / 1000) !important;
+    width: 50%;
+}
+
+.dropdown-toggle{
+    font-size:calc(14px + 2 * (100vw - 320px) / 1000) !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.dropdown-item{
+    font-size:calc(14px + 2 * (100vw - 320px) / 1000) !important;
+}
+
+.switch__btn{
+    background-color: #ffffff00;
+    color: #444;
+}
+
+.switch__btn--active{
+    background-color: #fff;
+    border: 1px solid #2F2B3C;
+    font-weight: 500;
+}
+.adminOneRequest .label,
+.courseModal .label,
+.requestPage .label,
+.adminCourse .label,
+.adminLkPage .label{
+    margin-top: calc(25px + 10 * (100vw - 320px) / 1000);
+    margin-bottom: calc(7px + 8 * (100vw - 320px) / 1000);
+    color: #000;
+    font-size:calc(14px + 2 * (100vw - 320px) / 1000);
+    font-weight: 500;
+    padding-left: 0.75rem;
+}
+
+.personalForm__block, .firmForm__firm{
+    display: flex;
+}
+
+.personalForm__item,
+.firmForm__firm .firmForm__item,
+.firmForm__student .firmForm__item .form-control
+{
+    width: calc(100% / 5);
+    margin-right: 10px;
+}
+
+.personalForm__item:last-child,
+.firmForm__student .firmForm__item .form-control:last-child{
+    margin-right: 0;
+}
+
+.requestPage .myBtns{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 6%;
+}
+
+.requestPage .myBtns p{
+    color: #444;
+    font-size:calc(14px + 2 * (100vw - 320px) / 1000);
+    text-align: right;
+    width: 45%;
+    margin-top: 20px;
+}
+
+.requestPage .myBtns a{
+    color: #444;
+}
+
+.requestPage .addStudent{
+    background-color: #ffffff00;
+    border: none;
+    font-size:calc(14px + 2 * (100vw - 320px) / 1000);
+    font-weight: 500;
+}
+
+.requestPage .removeStudent{
+    background-color: #ffffff00;
+    border: none;
+}
+
+.requestPage .addStudent svg{
+    padding-right: 4px;
+}
+
+.firmForm__student .firmForm__item{
+    display: flex;
+    margin-top: 4px;
+}
+
+.textarea{
+    width: 60% !important;
+}
+
+input:-webkit-autofill, .form-control:focus {
+    -webkit-box-shadow: 0 0 0 1000px #F8F8F9 inset !important;
+  }
+
+.notnull::after{
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0 0 10px 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+    background-color: #b61039;
+}
+
+.error {
+    color: #b61039;
+    font-size: calc(12px + 2 * (100vw - 320px) / 1000) !important;
+    padding-left: 0.75rem;
+}
+
+.requestPage .Btn_blueBtn__77xWt{
+    background-color: #000;
+}
+
+.requestPage .Btn_blueBtn__77xWt:disabled{
+    background-color: grey;
+    transform: scale(100%);
+}
+
+
+.requestPage .Btn_blueBtn__77xWt:disabled:hover{
+    cursor: not-allowed;
+}
+
+
+@media (max-width: 880px){
+    .requestPage{
+        padding: 0px 4% 100px;
+    }
+
+    .requestPage h3{
+        font-size: 18px;
+    }
+
+    .requestModal .modal-dialog.modal-dialog-centered{
+        max-width: none;
+    }
+
+    .requestModalBlock svg{
+        width: 50%;
+    }
+
+    .dropdown-menu{
+        width: 100%;
+    }
+
+    .requestPage .switch{
+        width: 45%;
+    }
+
+    .personalForm__block, .firmForm__firm{
+        flex-direction: column;
+    }
+
+    .personalForm__item,
+    .firmForm__item{
+        width: 100% !important;
+    }
+
+    .requestPage .myBtns p{
+        width: 80%;
+        font-size: 10px;
+    }
+    .textarea{
+        width: 100% !important;
+    }
+
+    .requestPage .switch button{
+        margin: 0 !important;
+    }
+}
+
+@media (max-width: 600px){
+    .requestPage .switch{
+        width: 80%;
+    }
+    .requestPage .dropdowns{
+        flex-direction: column;
+    }
+
+    .dropdowns__course,
+    .dropdowns__shedule{
+        width: 100%;
+        margin: 0;
+    }
+
+    .firmForm__student .firmForm__item{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+        padding: 20px 0;
+        border-bottom: 1px solid #D5D4E1;
+    }
+
+    .firmForm__student .firmForm__item .formControl{
+        width: 80%;
+        margin-top: 2px;
+    }
+
+    .removeStudent{
+        margin-top: 20px;
+    }
+}

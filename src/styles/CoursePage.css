@@ -1,0 +1,169 @@
+.coursePage{
+    padding: 40px 5.95% 200px;
+}
+
+.coursePage .about h1{
+    font-size:calc(20px + 20 * (100vw - 320px) / 1000);
+    color: #141314;
+}
+
+.coursePage .type p{
+    color: #4a4e69;
+    font-size:calc(12px + 3 * (100vw - 320px) / 1000);
+    font-weight: 500;
+    margin: 0 0 2% 0;
+}
+
+.coursePage .Btn_blueBtn__77xWt{
+    margin-top: 4%;
+}
+
+.coursePage .courseInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+}
+
+.courseInfo__item{
+    width: calc(100% / 4);
+}
+
+.courseInfo__item p{
+    font-size:calc(12px + 4 * (100vw - 320px) / 1000);
+    text-align: center;
+}
+
+.courseInfo__item .key{
+    margin-bottom: calc(15px + 10 * (100vw - 320px) / 1000);
+}
+
+.courseInfo__item .value{
+    color: #000;
+    font-weight: 500;
+}
+
+.coursePage .faq .faqList .row{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: start !important;
+}
+
+.requestModal .item,
+.coursePage .faq .faqList .row .item{
+    width: 25px;
+    height: 25px;
+    background-image: url('../img/item.svg');
+    background-size: cover;
+}
+
+.document{
+    background-color: #D5D4E1;
+    margin-top: calc(40px + 40 * (100vw - 320px) / 1000);
+}
+
+.document--null{
+    border-radius: 16px;
+    border: 1px solid #C7C7C7;
+    background-color: #ffffff00;
+}
+
+.document .container{
+    padding: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.document h2{
+    margin-bottom: calc(5px + 10 * (100vw - 320px) / 1000);
+    font-size:calc(18px + 14 * (100vw - 320px) / 1000);
+}
+
+.document p{
+    color: #444;
+    font-size:calc(12px + 4 * (100vw - 320px) / 1000);
+    width: 50%;
+    text-align: center;
+}
+
+.aContainer{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-size:calc(8px + 4 * (100vw - 320px) / 1000);
+    color: #444;
+    text-decoration: none;
+    width: 100%;
+}
+
+.aContainer svg{
+    margin-right: 0.5%;
+}
+
+.aContainer:hover{
+    color: #444;
+}
+
+.coursePage .faq{
+    margin-top: calc(80px + 40 * (100vw - 320px) / 1000);
+    background-color: #F5F5F5;
+    padding: 44px !important;
+}
+
+.faq h2{
+    font-size:calc(18px + 14 * (100vw - 320px) / 1000);
+}
+
+.faq h3{
+    font-size:calc(16px + 4 * (100vw - 320px) / 1000);
+    font-weight: 500;
+}
+
+.coursePage .faq li{
+    color: #444;
+}
+
+@media (max-width: 880px){
+    .faq, .document--null{
+        border-radius: 8px;
+    }
+
+    .faq h2, .document h2{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .coursePage .about h1{
+        font-size: 32px;
+    }
+    .coursePage .courseInfo{
+        flex-wrap: wrap;
+    }
+    .courseInfo__item{
+        margin-bottom: 10%;
+        width: calc(50% - 10px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .requestModal .item, .coursePage .faq .faqList .row .item{
+        width: 20px;
+        height: 20px;
+        padding-right: 0 !important;
+    }
+    .document p{
+        width: 100%;
+        margin: 0;
+    }
+
+    .coursePage{
+        padding: 0px 4% 100px;
+    }
+    .document, .faq, .coursePage .courseInfo{
+        margin-top: 40px;
+    }
+    .coursePage .faq{
+        padding: 20px !important;
+    }
+}

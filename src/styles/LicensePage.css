@@ -1,0 +1,41 @@
+.licensePage{
+    padding: 40px 5.95% 200px;
+}
+
+.licensePage h1{
+    font-size:calc(18px + 14 * (100vw - 320px) / 1000);
+    margin-top: 30px;
+    font-family: 'Play';
+}
+
+.licensesBlock{
+    margin-top: 45px;
+}
+
+.licenseItem{
+    margin-bottom: 20px;
+}
+
+.licenseItem .aContainer{
+    justify-content: start;
+    align-items: center;
+}
+
+.licenseItem .aContainer p{
+    margin: 0 0 0 20px;
+    color: #000;
+    width: 100%;
+}
+
+@media (max-width: 880px){
+    .licensePage h1{
+        font-size: 24px;
+    }
+    .licensePage{
+        padding: 0px 4% 100px;
+    }
+
+    .licenseItem .aContainer p{
+        width: 80%;
+    }
+}
